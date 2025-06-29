@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'A',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -29,7 +29,7 @@ const CONFIG = {
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'ja', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '37.775',
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Drive',
+			icon: 'folder-open',
+			link: 'https://drive.google.com/drive/home',
 		},
 		{
 			id: '4',
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Yahoo!',
+			icon: 'newspaper',
+			link: 'https://www.yahoo.co.jp/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
@@ -94,25 +94,25 @@ const CONFIG = {
 			id: '1',
 			name: 'Music',
 			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			link: 'https://music.youtube.com/',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'hatena',
+			icon: 'file-question-mark',
+			link: 'https://b.hatena.ne.jp/',
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'slack',
 			icon: 'bot',
-			link: 'https://discord.com/app',
+			link: 'https://slack.com',
 		},
 		{
 			id: '4',
 			name: 'Amazon',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://amazon.co.jp/',
 		},
 		{
 			id: '5',
